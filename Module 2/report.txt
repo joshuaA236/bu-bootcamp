@@ -1,0 +1,12 @@
+Grade Analysis Report
+GRADE REPORT
+Average score: 77.55
+Highest score: 100
+Lowest score: 45
+Grade distribution
+A 3
+B 3
+C 2
+D 1
+F 2
+
