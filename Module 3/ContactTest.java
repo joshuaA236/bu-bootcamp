@@ -32,4 +32,17 @@ public class ContactTest {
     Contact c = new Contact("Alan Turing", "555-0001");
     assertTrue(c.toString().contains("555-0001"));
   }
+
+  @Test
+  void constructor_acceptsEmptyValues() {
+    Contact c = new Contact("", "");
+    assertEquals("", c.getName());
+    assertEquals("", c.getPhone());
+  }
+
+  @Test
+  void toString_returnsNameAndPhoneSeparatedByPipe() {
+    Contact c = new Contact("Joe bury", "222-0001");
+    assertEquals("Joe bury | 222-0001", c.toString());
+  }
 }
